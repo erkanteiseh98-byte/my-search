@@ -1,0 +1,15 @@
+use_default_settings: true
+
+server:
+  port: 8080
+  bind_address: "0.0.0.0"
+  secret_key: "f84c94ea98d702c027ab011087760a2092267c1443fb4a2920c9c89e01847abe"
+  limiter: false
+  public_instance: false
+
+search:
+  safe_search: 0
+  autocomplete: "google"
+  formats:
+    - html
+    - json
